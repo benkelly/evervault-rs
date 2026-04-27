@@ -1,0 +1,16 @@
+{
+  "name": "evervault-rs",
+  "image": "mcr.microsoft.com/devcontainers/rust:1-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  },
+  "postCreateCommand": "cp -n .env.example .env || true && cargo fetch",
+  "remoteEnv": {
+    "RUST_BACKTRACE": "1"
+  }
+}

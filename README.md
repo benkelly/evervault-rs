@@ -60,6 +60,10 @@ plaintext is only reconstructed inside the API call.
 ## Running it
 
 You need a recent stable Rust toolchain (`rustup` will sort you out).
+Or, skip the local install entirely and open the repo in
+[GitHub Codespaces](https://github.com/features/codespaces) — the bundled
+`.devcontainer` config provisions Rust, `rust-analyzer`, and pre-fetches
+dependencies on first launch.
 
 ```bash
 # Round-trip a card number
