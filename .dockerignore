@@ -1,0 +1,8 @@
+target
+.git
+.github
+.devcontainer
+.env
+.env.local
+**/*.md
+!README.md
